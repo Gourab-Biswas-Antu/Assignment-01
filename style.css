@@ -38,7 +38,7 @@ li a {
 .hero-section {
   width: 100%;
   background-image:
-    linear-gradient(#00000080, #00000080), url(./assets/banner.jpg);
+    linear-gradient(to right, #000000, #00000066), url(./assets/banner.jpg);
   background-size: cover;
   background-position: center;
   height: 800px;
