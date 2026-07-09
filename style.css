@@ -76,3 +76,70 @@ li a {
 .button2 {
   margin-top: 25%;
 }
+
+.meet-speaker h2 {
+  padding-top: 60px;
+  padding-bottom: 45px;
+  font-size: 55px;
+}
+.meet-speaker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  margin: auto;
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.cards {
+  
+  display: grid;
+  gap: 20px;
+  border-radius: 15%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 470px;
+  grid-template-areas:
+    "one two"
+    "three four";
+  text-align: left;
+}
+
+.card {
+  border: 0.5px solid #e5e7eb;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card1 {
+  grid-area: one;
+}
+.card2 {
+  grid-area: two;
+}
+.card3 {
+  grid-area: three;
+}
+.card4 {
+  grid-area: four;
+}
+
+.card img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.trac-label {
+  color: #2563eb;
+  padding: 15px;
+}
+.company {
+  color: #575757;
+  padding: 15px;
+}
+h3 {
+  color: #0d1b2a;
+  padding: 5px 15px;
+}
