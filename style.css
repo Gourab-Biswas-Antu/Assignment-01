@@ -145,6 +145,7 @@ h3 {
 /* pricing */
 .pricing {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .pricing h2 {
@@ -167,6 +168,7 @@ padding-bottom: 15px;
   gap: 25px;
 }
 .price-card {
+  width: 350px;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -239,4 +241,9 @@ color: #FFFFFF;
 
 .bullet{
   color: #2563EB;
+}
+
+.contact-btn{
+  color: #0D1B2A;
+  border-color: #0D1B2A;
 }

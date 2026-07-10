@@ -71,7 +71,7 @@
 
 This is the **only** section where AI usage is expected and encouraged.
 
-- Replace the "Something Missing? Generate a relevant section with AI" placeholder with a brand-new section of your own idea.
+- Replace the "Something Missing? Generate a relevant section with AI" placeholder with a brand-new section of your own idea. 
 
 - The section **must stay relevant to the DevConf 2026 theme** (e.g. Sponsors,  Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board, etc.).
 - Use AI (Claude, ChatGPT, or any tool) to help you **ideate, design, and/or code** this section.
