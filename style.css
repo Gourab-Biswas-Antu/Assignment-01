@@ -12,8 +12,7 @@ nav {
   align-items: center;
   padding: 25px 0px;
 }
-
-ul {
+.nav-ul {
   display: flex;
   text-decoration: none;
   list-style: none;
@@ -76,7 +75,7 @@ li a {
 .button2 {
   margin-top: 25%;
 }
-
+/* meet the speaker */
 .meet-speaker h2 {
   padding-top: 60px;
   padding-bottom: 45px;
@@ -94,7 +93,6 @@ li a {
 }
 
 .cards {
-  
   display: grid;
   gap: 20px;
   border-radius: 15%;
@@ -142,4 +140,103 @@ li a {
 h3 {
   color: #0d1b2a;
   padding: 5px 15px;
+}
+
+/* pricing */
+.pricing {
+  text-align: center;
+}
+
+.pricing h2 {
+  padding-top: 130px;
+padding-bottom: 15px;
+  font-size: 55px;
+  color: #0d1b2a;
+}
+.p-offer {
+  color: #575757;
+  font-size: 18px;
+  padding-bottom: 35px;
+}
+.all-pricing-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  margin: auto;
+  gap: 25px;
+}
+.price-card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 15px;
+  border: 0.5px solid #e5e7eb;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.price-ul {
+  list-style: none;
+  color: #333333;
+  padding: 15px 0 15px 10px;
+}
+.price-ul li {
+  padding: 10px 0;
+}
+
+.p-card1 {
+  color: #888888;
+  font-weight: 600;
+  padding: 15px 0 5px 10px;
+}
+
+h4 {
+  color: #0d1b2a;
+  font-size: 45px;
+  padding-left: 10px;
+}
+
+.p-1-3 {
+  color: #888888;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+.price-btn {
+  align-self: center;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-color: #2563eb;
+  border-radius: 10px;
+  color: #2563eb;
+  background-color: #ffffff;
+  font-weight: 600;
+}
+hr{
+    border: none;
+    border-top: 0.5px solid #888888;
+}
+.pro-btn {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+.pro-card{
+  background-color: #0D1B2A;
+}
+.pro-p{
+  color: #93C5FD;
+}
+.pro-price{
+  color: #FFFFFF;
+}
+
+.pro-ul{
+color: #FFFFFF;
+}
+
+.bullet{
+  color: #2563EB;
 }
