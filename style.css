@@ -150,7 +150,7 @@ h3 {
 
 .pricing h2 {
   padding-top: 130px;
-padding-bottom: 15px;
+  padding-bottom: 15px;
   font-size: 55px;
   color: #0d1b2a;
 }
@@ -217,33 +217,114 @@ h4 {
   background-color: #ffffff;
   font-weight: 600;
 }
-hr{
-    border: none;
-    border-top: 0.5px solid #888888;
+hr {
+  border: none;
+  border-top: 0.5px solid #888888;
 }
 .pro-btn {
   background-color: #2563eb;
   color: #ffffff;
 }
-.pro-card{
-  background-color: #0D1B2A;
+.pro-card {
+  background-color: #0d1b2a;
 }
-.pro-p{
-  color: #93C5FD;
+.pro-p {
+  color: #93c5fd;
 }
-.pro-price{
-  color: #FFFFFF;
-}
-
-.pro-ul{
-color: #FFFFFF;
+.pro-price {
+  color: #ffffff;
 }
 
-.bullet{
-  color: #2563EB;
+.pro-ul {
+  color: #ffffff;
 }
 
-.contact-btn{
-  color: #0D1B2A;
-  border-color: #0D1B2A;
+.bullet {
+  color: #2563eb;
+}
+
+.contact-btn {
+  color: #0d1b2a;
+  border-color: #0d1b2a;
+}
+
+/* place holder section */
+
+.placeholder {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 1280px;
+  margin: auto;
+  flex-direction: column;
+  gap: 50px;
+}
+.venue-image {
+  height: 250px;
+  width: 250px;
+}
+
+.placeholder h2 {
+  color: #0d1b2a;
+  font-size: 55px;
+  padding-top: 75px;
+  padding-bottom: 55px;
+}
+
+#and {
+  color: #2563eb;
+}
+
+h5{
+  color: #0d1b2a;
+  padding: 10px;
+}
+.tracks-venue {
+  display: grid;
+  gap: 75px;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-rows: 250px;
+  grid-template-areas:
+    "one four five eight"
+    "two three six seven";
+}
+
+.venue-card1 {
+  grid-area: one;
+}
+.venue-card2 {
+  grid-area: two;
+}
+.venue-card3 {
+  grid-area: three;
+}
+.venue-card4 {
+  grid-area: four;
+}
+.venue-card5 {
+  grid-area: five;
+}
+.venue-card6 {
+  grid-area: six;
+}
+.venue-card7 {
+  grid-area: seven;
+}
+.venue-card8 {
+  grid-area: eight;
+}
+
+.venue-cards {
+  border: 0.5px solid #e5e7eb;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
 }
