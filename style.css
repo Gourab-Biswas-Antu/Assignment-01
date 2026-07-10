@@ -256,6 +256,7 @@ hr {
   text-align: center;
   max-width: 1280px;
   margin: auto;
+  padding-bottom: 60px;
   flex-direction: column;
   gap: 50px;
 }
@@ -277,7 +278,8 @@ hr {
 
 h5{
   color: #0d1b2a;
-  padding: 10px;
+  padding: 15px;
+  font-size: 22px;
 }
 .tracks-venue {
   display: grid;
@@ -327,4 +329,40 @@ h5{
   align-items: center;
   text-align: center;
   border: none;
+}
+
+
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-10px) scale(1);
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+ .venue-cards {
+  border: 0.5px solid #e5e7eb;
+  border-radius: 25px;
+  overflow: hidden;
+
+  box-shadow: 0 10px 25px #00000092;
+
+  animation: float 4s ease-in-out infinite;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.venue-cards {
+    transition: .3s;
+}
+
+.venue-cards:hover {
+    animation-play-state: paused;
+    transform: scale(1.05);
+
+    box-shadow: 0 20px 40px #00000092;
 }
